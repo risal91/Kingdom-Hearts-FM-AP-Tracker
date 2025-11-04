@@ -6,6 +6,28 @@ CUR_INDEX = -1
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 
+WORLD_PROGRESSION_MAPPING = {
+    -- Wonderland (ID 2641149)
+    [2641149] = { "wonderland", "footprints" },
+
+    -- Olympus (ID 2641150)
+    [2641150] = { "olympus_coliseum", "entry_pass" },
+
+    -- Deep Jungle (ID 2641151)
+    [2641151] = { "deep_jungle", "slides" },
+
+    -- Atlantica (ID 2641157)
+    [2641157] = { "atlantica", "trident" },
+
+    -- Hollow Bastion (ID 2641168)
+    [2641168] = { "hollow_bastion", "theon_6" },
+
+    -- Welten w/o Progression Items
+    [2641155] = { "agrabah" },
+    [2641156] = { "monstro" },
+    [2641165] = { "neverland" },
+    [2641169] = { "end_of_the_world" }
+}
 function onClear(slot_data)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
@@ -112,6 +134,56 @@ function onItem(index, item_id, item_name, player_number)
     end
     local is_local = player_number == Archipelago.PlayerNumber
     CUR_INDEX = index;
+
+    -- ########## START: NEW PROGRESSIV-WELTEN-LOGIC ##########
+
+    -- Extra-Case: Halloween Town
+    -- ID 2641166
+    if item_id == 2641166 then
+        local ht_world = Tracker:FindObjectForCode("halloween_town")
+        if ht_world and not ht_world.Active then
+            ht_world.Active = true
+            if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                print("onItem (Progressiv): 'halloween_town' Checked.")
+            end
+        else
+            if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                print("onItem (Progressiv): 'halloween_town' Activ and Check 'forget_me_not' and 'jack_box'.")
+            end
+            local fmn = Tracker:FindObjectForCode("forget_me_not")
+            local jb = Tracker:FindObjectForCode("jack_box")
+            if fmn then fmn.Active = true end
+            if jb then jb.Active = true end
+        end
+        return
+    end
+
+
+    local progression = WORLD_PROGRESSION_MAPPING[item_id]
+    if progression then
+        local found_item_to_check = nil
+
+        for _, code in ipairs(progression) do
+            local obj = Tracker:FindObjectForCode(code)
+            if obj and not obj.Active then
+                found_item_to_check = obj
+                break
+            end
+        end
+
+        if found_item_to_check then
+            if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                print(string.format("onItem (Progressiv): Check next Item: %s", found_item_to_check.Code))
+            end
+            found_item_to_check.Active = true
+            return
+        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("onItem (Progressiv): ID %s is Done.", item_id))
+        end
+        return
+    end
+    -- ########## ENDE: NEW PROGRESSIV-WELTEN-LOGIC ##########
+
     local v = ITEM_MAPPING[item_id]
     if not v then
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then

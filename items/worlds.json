@@ -84,6 +84,12 @@
         "codes": "atlantica"
     },
     {
+        "name": "Destiny Islands",
+        "type": "toggle",
+        "codes": "destiny_islands",
+        "img": "images/worlds/Destiny Islands.png"
+    },
+    {
         "name": "Crystal Trident",
         "type": "toggle",
         "codes": "trident",

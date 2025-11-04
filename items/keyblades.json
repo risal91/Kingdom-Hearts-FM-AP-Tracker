@@ -24,6 +24,12 @@
         "codes": "pumpkinhead"
     },
     {
+        "name": "Merlin - Spellbinder",
+        "img": "images/keyblades/spellbinder.png",
+        "type": "toggle",
+        "codes": "spellbinder"
+    },
+    {
         "name": "Atlantica - Crabclaw",
         "img": "images/keyblades/crabclaw.png",
         "type": "toggle",
@@ -64,6 +70,23 @@
         "img": "images/keyblades/wishing_star.png",
         "type": "toggle",
         "codes": "wishing_star"
+    },
+    {
+        "name": "Olympus - Metal Chocobo",
+        "img": "images/keyblades/metal_chocobo.png",
+        "type": "toggle",
+        "codes": "metal_chocobo"
+    },
+    {
+        "name": "Synth - Ultima Weapon",
+        "img": "images/keyblades/ultima_weapon.png",
+        "type": "toggle",
+        "codes": "ultima_weapon"
+    },
+    {
+        "name": "Victory",
+        "type": "toggle",
+        "codes": "Victory"
     },
     {
         "name": "Hundred Acre Wood - Oathkeeper",
