@@ -1,36 +1,29 @@
 [
-    {
-        "name": "Fire Arts",
+    { "name": "Fire Arts",
         "type": "toggle",
         "codes": "fire_arts"
     },
-    {
-        "name": "Blizzard Arts",
+    { "name": "Blizzard Arts",
         "type": "toggle",
         "codes": "blizzard_arts"
     },
-    {
-        "name": "Thunder Arts",
+    { "name": "Thunder Arts",
         "type": "toggle",
         "codes": "thunder_arts"
     },
-    {
-        "name": "Cure Arts",
+    { "name": "Cure Arts",
         "type": "toggle",
         "codes": "cure_arts"
     },
-    {
-        "name": "Gravity Arts",
+    { "name": "Gravity Arts",
         "type": "toggle",
         "codes": "gravity_arts"
     },
-    {
-        "name": "Stop Arts",
+    { "name": "Stop Arts",
         "type": "toggle",
         "codes": "stop_arts"
     },
-    {
-        "name": "Aero Arts",
+    { "name": "Aero Arts",
         "type": "toggle",
         "codes": "aero_arts"
     },
@@ -51,8 +44,7 @@
         "overlay_font_size": 15
     },
     {
-        "name": "Torn Pages",
-        "type": "consumable",
+        "name": "Torn Pages", "type": "consumable",
         "img": "images/misc/pages.png",
         "codes": "torn_page",
         "max_quantity": 5,
@@ -67,27 +59,10 @@
         "overlay_font_size": 15
     },
     {
-        "name": "Single Puppies",
-        "type": "consumable",
-        "max_quantity": 99,
-        "codes": "puppies_single"
-    },
-    {
-        "name": "Triplet Puppies",
-        "type": "consumable",
-        "max_quantity": 33,
-        "codes": "puppies_triplets"
-    },
-    {
-        "name": "All Puppies",
-        "type": "toggle",
-        "codes": "puppies_all"
-    },
-    {
         "name": "Puppies",
         "type": "consumable",
         "img": "images/misc/puppies.png",
         "max_quantity": 99,
-        "codes": "puppies"
+        "codes": "kh_puppies"
     }
 ]

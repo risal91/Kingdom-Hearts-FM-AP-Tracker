@@ -46,7 +46,7 @@
         "item_margin": "5,5",
         "item_size": "40,40",
         "rows": [
-            ["postcard", "bottle", "torn_page", "report", "puppies"],
+            ["postcard", "bottle", "torn_page", "report", "kh_puppies"],
             ["emblem_fountain", "emblem_flame", "emblem_chest", "emblem_statue"]
         ]
     }

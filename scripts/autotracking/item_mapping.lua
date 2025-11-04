@@ -1,5 +1,6 @@
+-- REPARIERTE ITEM_MAPPING.LUA (Filtert nur Items, die im Layout .json existieren)
 ITEM_MAPPING = {
-    -- Keyblades
+    -- Keyblades (aus keyblades.json)
     [2641086] = {"jungle_king", "toggle"},
     [2641087] = {"three_wishes", "toggle"},
     [2641088] = {"fairy_harp", "toggle"},
@@ -15,8 +16,9 @@ ITEM_MAPPING = {
     [2641096] = {"oathkeeper", "toggle"},
     [2641100] = {"ultima_weapon", "toggle"},
     [2641095] = {"metal_chocobo", "toggle"},
+    [2640000] = {"Victory", "toggle"},
 
-    -- worlds
+    -- Welten & Items (aus worlds.json)
     [2641149] = {"wonderland", "toggle"},
     [2641223] = {"footprints", "toggle"},
     [2641151] = {"deep_jungle", "toggle"},
@@ -41,8 +43,9 @@ ITEM_MAPPING = {
     [2641183] = {"theon_6", "toggle"},
     [2641156] = {"monstro", "toggle"},
     [2641169] = {"end_of_the_world", "toggle"},
+    [2641011] = {"destiny_islands", "toggle"}, -- Wird in Fix 4 zum Layout hinzugefügt
 
-    -- magic
+    -- Magie & Summons (aus magic.json)
     [2641231] = {"dumbo", "toggle"},
     [2641233] = {"bambi", "toggle"},
     [2641234] = {"genie", "toggle"},
@@ -57,19 +60,23 @@ ITEM_MAPPING = {
     [2641180] = {"stop", "consumable"},
     [2641181] = {"aero", "consumable"},
 
-    -- abilities
+    -- Fähigkeiten & Trinities (aus abilities.json)
+    [2643062] = {"leaf_bracer", "toggle"},
+    [2643022] = {"dodge_roll", "toggle"},
+    [2643025] = {"second_chance", "toggle"},
+    [2643024] = {"mp_rage", "toggle"},
+    [2643021] = {"guard", "toggle"},
+    [2643065] = {"combo_master", "toggle"},
     [2642001] = {"high_jump", "consumable"},
     [2642002] = {"mermaid_kick", "consumable"},
     [2642003] = {"glide", "consumable"},
-
-    -- Trinities
     [2641170] = {"blue_trinity", "toggle"},
     [2641171] = {"red_trinity", "toggle"},
     [2641172] = {"green_trinity", "toggle"},
     [2641173] = {"yellow_trinity", "toggle"},
     [2641174] = {"white_trinity", "toggle"},
 
-    -- Collectibles
+    -- Collectibles (aus misc.json)
     [2641158] = {"fire_arts", "toggle"},
     [2641159] = {"blizzard_arts", "toggle"},
     [2641160] = {"thunder_arts", "toggle"},
@@ -80,7 +87,5 @@ ITEM_MAPPING = {
     [2641211] = {"postcard", "consumable"},
     [2641186] = {"bottle", "consumable"},
     [2641009] = {"torn_page", "consumable"},
-    [2641167] = {"puppies", "consumable"},
-    [2642240] = {"puppies_all", "toggle"},
-    [2640000] = {"Victory", "toggle"}
+    [2641167] = {"kh_puppies", "consumable"}
 }
