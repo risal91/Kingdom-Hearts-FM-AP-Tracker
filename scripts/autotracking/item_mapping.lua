@@ -1,6 +1,5 @@
--- REPARIERTE ITEM_MAPPING.LUA (Filtert nur Items, die im Layout .json existieren)
 ITEM_MAPPING = {
-    -- Keyblades (aus keyblades.json)
+    -- Keyblades
     [2641086] = {"jungle_king", "toggle"},
     [2641087] = {"three_wishes", "toggle"},
     [2641088] = {"fairy_harp", "toggle"},
@@ -18,7 +17,7 @@ ITEM_MAPPING = {
     [2641095] = {"metal_chocobo", "toggle"},
     [2640000] = {"Victory", "toggle"},
 
-    -- Welten & Items (aus worlds.json)
+    -- Welten & Items
     [2641149] = {"wonderland", "toggle"},
     [2641223] = {"footprints", "toggle"},
     [2641151] = {"deep_jungle", "toggle"},
@@ -43,9 +42,9 @@ ITEM_MAPPING = {
     [2641183] = {"theon_6", "toggle"},
     [2641156] = {"monstro", "toggle"},
     [2641169] = {"end_of_the_world", "toggle"},
-    [2641011] = {"destiny_islands", "toggle"}, -- Wird in Fix 4 zum Layout hinzugefügt
+    [2641011] = {"destiny_islands", "toggle"},
 
-    -- Magie & Summons (aus magic.json)
+    -- Magie & Summons
     [2641231] = {"dumbo", "toggle"},
     [2641233] = {"bambi", "toggle"},
     [2641234] = {"genie", "toggle"},
@@ -60,7 +59,7 @@ ITEM_MAPPING = {
     [2641180] = {"stop", "consumable"},
     [2641181] = {"aero", "consumable"},
 
-    -- Fähigkeiten & Trinities (aus abilities.json)
+    -- Fähigkeiten & Trinities
     [2643062] = {"leaf_bracer", "toggle"},
     [2643022] = {"dodge_roll", "toggle"},
     [2643025] = {"second_chance", "toggle"},
@@ -76,7 +75,7 @@ ITEM_MAPPING = {
     [2641173] = {"yellow_trinity", "toggle"},
     [2641174] = {"white_trinity", "toggle"},
 
-    -- Collectibles (aus misc.json)
+    -- Collectibles
     [2641158] = {"fire_arts", "toggle"},
     [2641159] = {"blizzard_arts", "toggle"},
     [2641160] = {"thunder_arts", "toggle"},

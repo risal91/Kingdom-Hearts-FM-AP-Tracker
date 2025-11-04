@@ -4,7 +4,8 @@
         "item_margin": "5,5",
         "item_size": "40,40",
         "rows": [
-            ["destiny_islands", "wonderland", "olympus_coliseum", "deep_jungle"],
+            ["destiny_islands", "end_of_the_world"],
+            ["wonderland", "olympus_coliseum", "deep_jungle"],
             ["agrabah", "monstro", "atlantica"],
             ["halloween_town","neverland", "hollow_bastion"]
         ]

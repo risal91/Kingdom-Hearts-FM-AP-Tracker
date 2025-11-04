@@ -35,20 +35,13 @@ function world_count()
 end
 
 function puppy_count()
-    local count = 0
-    if has("puppies_single") then
-        count = count + Tracker:FindObjectForCode("puppies_single").AcquiredCount
-    end
-    if has("puppies_triplets") then
-        count = count + (Tracker:FindObjectForCode("puppies_triplets").AcquiredCount * 3)
-    end
-    if has("puppies_all") then
-        count = 99
+    local puppy_item = Tracker:FindObjectForCode("kh_puppies")
+
+    if puppy_item then
+        return puppy_item.AcquiredCount
     end
 
-    Tracker:FindObjectForCode("puppies").AcquiredCount = count
-
-    return count
+    return 0
 end
 
 function cups_count()

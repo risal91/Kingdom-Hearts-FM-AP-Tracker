@@ -12,11 +12,6 @@
                         "access_rules":["$tt_chests"]
                     },
                     {
-                        "name": "1st District - Talk to Cid",
-                        "chest_unopened_img": "/images/misc/emblem.png",
-                        "chest_opened_img": "/images/misc/emblem_bw.png"
-                    },
-                    {
                         "name": "1st District - Talk to Aerith before Defeating Guard Armor - MISSABLE", 
                         "visibility_rules":["missables_on"],
                         "chest_unopened_img": "/images/misc/emblem.png",

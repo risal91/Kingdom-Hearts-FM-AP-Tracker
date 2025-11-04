@@ -422,9 +422,6 @@ LOCATION_MAPPING = {
     [2656354] = {"@Overview/Hundred Acre Wood/Convert Torn Page #4"},
     [2656355] = {"@Overview/Hundred Acre Wood/Convert Torn Page #5"},
 
-    -- ########## NEUE LOCATIONS AUS LOG.TXT HINZUGEFÜGT ##########
-    -- (ACHTUNG: Pfade (@Overview/...) müssen eventuell an dein Pack-Layout angepasst werden!)
-
     -- Synth Items
     [2656400] = {"@Overview/Traverse Town - Moogle Workshop/Synth 15 Items"},
     [2656407] = {"@Overview/Traverse Town - Moogle Workshop/Synth Item 07"},

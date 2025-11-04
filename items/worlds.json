@@ -84,12 +84,6 @@
         "codes": "atlantica"
     },
     {
-        "name": "Destiny Islands",
-        "type": "toggle",
-        "codes": "destiny_islands",
-        "img": "images/worlds/Destiny Islands.png"
-    },
-    {
         "name": "Crystal Trident",
         "type": "toggle",
         "codes": "trident",
@@ -144,8 +138,14 @@
         "codes": "monstro"
     },
     {
+        "name": "Destiny Islands",
+        "img": "images/worlds/islands.png",
+        "type": "toggle",
+        "codes": "destiny_islands"
+    },
+    {
         "name": "End of the World",
-        "img": "images/worlds/End of the World.png",
+        "img": "images/worlds/final.png",
         "type": "toggle",
         "codes": "end_of_the_world"
     }

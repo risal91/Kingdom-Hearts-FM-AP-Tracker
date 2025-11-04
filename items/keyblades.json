@@ -84,14 +84,15 @@
         "codes": "ultima_weapon"
     },
     {
-        "name": "Victory",
-        "type": "toggle",
-        "codes": "Victory"
-    },
-    {
         "name": "Hundred Acre Wood - Oathkeeper",
         "img": "images/keyblades/oathkeeper.png",
         "type": "toggle",
         "codes": "oathkeeper"
+    },
+    {
+        "name": "Victory",
+        "img": "images/keyblades/oathkeeper.png",
+        "type": "toggle",
+        "codes": "Victory"
     }
 ]
