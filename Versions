@@ -1,0 +1,15 @@
+{
+    "versions": [
+        {
+            "package_version": "2.0.1-beta.0.2",
+            "download_url": "https://github.com/risal91/Kingdom-Hearts-FM-AP-Tracker/archive/refs/tags/V2.0.1-beta.0.2.zip",
+            "sha256": "sha256:sha256:8550d0b4b8399447ac10b823ca67cc8d761b491fe6c7c479251127d601b54a3d",
+            "changelog": ["Bug Fixes, white Puppies"]
+        },
+        {
+            "package_version": "2.0.0-beta.0.1",
+            "download_url": "https://github.com/risal91/Kingdom-Hearts-FM-AP-Tracker/archive/refs/tags/v2.0.0-beta.0.1.zip",
+            "sha256": "sha256:8550d0b4b8399447ac10b823ca67cc8d761b491fe6c7c479251127d601b54a3d",
+            "changelog": ["New Ap World Fix"]
+        }
+]
