@@ -63,6 +63,15 @@
         "type": "consumable",
         "img": "images/misc/puppies.png",
         "max_quantity": 99,
-        "codes": "kh_puppies"
+        "codes": "kh_puppies",
+        "use_recived_amount": true,
+        "min:_amount": 1
+    },
+    {
+        "name": "Lucky Emblem",
+        "type": "consumable",
+        "img": "images/misc/lucky_emblem.png",
+        "max_quantity": 20,
+        "codes": "lucky_emblem"
     }
 ]

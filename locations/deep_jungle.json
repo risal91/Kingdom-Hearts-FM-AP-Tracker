@@ -3,6 +3,22 @@
         "name": "Deep Jungle Chests",
         "children": [
             {
+                "name": "Treetop",
+                "sections": [
+                    {
+                        "name": "Green Trinity",
+                        "ref": "Overview/Deep Jungle - Before Slides/Treetop - Green Trinity"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "DJ",
+                        "x": 282,
+                        "y": 670
+                    }
+                ]
+            },
+            {
                 "name": "Tree House",
                 "sections": [
                     {

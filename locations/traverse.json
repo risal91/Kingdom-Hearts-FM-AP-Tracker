@@ -35,6 +35,22 @@
                 ]
             },
             {
+                "name": "1st District",
+                "sections": [
+                    {
+                        "name": "Blue Trinity Exit",
+                        "ref": "Overview/Traverse Town - Further Visits/1st District - Blue Trinity Exit"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 454,
+                        "y": 708
+                    }
+                ]
+            },
+            {
                 "name": "2nd District",
                 "sections": [
                     {
@@ -79,6 +95,22 @@
                         "map": "TT",
                         "x": 845,
                         "y": 105
+                    }
+                ]
+            },
+            {
+                "name": "3rd District",
+                "sections": [
+                    {
+                        "name": "Blue Trinity",
+                        "ref": "Overview/Traverse Town - Further Visits/3rd District - Blue Trinity"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 852,
+                        "y": 535
                     }
                 ]
             },
@@ -271,6 +303,22 @@
                         "map": "TT",
                         "x": 860,
                         "y": 808
+                    }
+                ]
+            },
+            {
+                "name": "Mystical House",
+                "sections": [
+                    {
+                        "name": "Blue Trinity",
+                        "ref": "Overview/Traverse Town - Further Visits/Mystical House - Blue Trinity"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "TT",
+                        "x": 760,
+                        "y": 765
                     }
                 ]
             },

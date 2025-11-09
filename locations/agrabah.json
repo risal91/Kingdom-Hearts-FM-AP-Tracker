@@ -99,6 +99,22 @@
                 ]
             },
             {
+                "name": "Bazaar",
+                "sections": [
+                    {
+                        "name": "Blue Trinity",
+                        "ref": "Overview/Agrabah - Chests/Bazaar - Blue Trinity"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG",
+                        "x": 657,
+                        "y": 385
+                    }
+                ]
+            },
+            {
                 "name": "Main Street",
                 "sections": [
                     {
@@ -436,6 +452,22 @@
                         "map": "AG_Cave",
                         "x": 89,
                         "y": 181
+                    }
+                ]
+            },
+            {
+                "name": "Treasure Room",
+                "sections": [
+                    {
+                        "name": "Red Trinity",
+                        "ref": "Overview/Cave of Wonders - Chests/Treasure Room - Red Trinity"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "AG_Cave",
+                        "x": 156,
+                        "y": 213
                     }
                 ]
             },

@@ -86,5 +86,6 @@ ITEM_MAPPING = {
     [2641211] = {"postcard", "consumable"},
     [2641186] = {"bottle", "consumable"},
     [2641009] = {"torn_page", "consumable"},
+    [2641238] = {"lucky_emblem", "consumable"},
     [2641167] = {"kh_puppies", "consumable"}
 }

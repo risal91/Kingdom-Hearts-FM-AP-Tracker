@@ -131,6 +131,198 @@
                 ]
             },
             {
+                "name": "Clock Tower",
+                "sections": [
+                    {
+                        "name": "01:00 Door",
+                        "ref": "Overview/Neverland - Chests/Clock Tower - 01:00 Door"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "NL",
+                        "x": 688,
+                        "y": 220
+                    }
+                ]
+            },
+            {
+                "name": "Clock Tower",
+                "sections": [
+                    {
+                        "name": "02:00 Door",
+                        "ref": "Overview/Neverland - Chests/Clock Tower - 02:00 Door"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "NL",
+                        "x": 603,
+                        "y": 45
+                    }
+                ]
+            },
+            {
+                "name": "Clock Tower",
+                "sections": [
+                    {
+                        "name": "03:00 Door",
+                        "ref": "Overview/Neverland - Chests/Clock Tower - 03:00 Door"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "NL",
+                        "x": 739,
+                        "y": 45
+                    }
+                ]
+            },
+            {
+                "name": "Clock Tower",
+                "sections": [
+                    {
+                        "name": "04:00 Door",
+                        "ref": "Overview/Neverland - Chests/Clock Tower - 04:00 Door"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "NL",
+                        "x": 760,
+                        "y": 45
+                    }
+                ]
+            },
+            {
+                "name": "Clock Tower",
+                "sections": [
+                    {
+                        "name": "05:00 Door",
+                        "ref": "Overview/Neverland - Chests/Clock Tower - 05:00 Door"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "NL",
+                        "x": 708,
+                        "y": 222
+                    }
+                ]
+            },
+            {
+                "name": "Clock Tower",
+                "sections": [
+                    {
+                        "name": "06:00 Door",
+                        "ref": "Overview/Neverland - Chests/Clock Tower - 06:00 Door"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "NL",
+                        "x": 655,
+                        "y": 240
+                    }
+                ]
+            },
+            {
+                "name": "Clock Tower",
+                "sections": [
+                    {
+                        "name": "07:00 Door",
+                        "ref": "Overview/Neverland - Chests/Clock Tower - 07:00 Door"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "NL",
+                        "x": 624,
+                        "y": 45
+                    }
+                ]
+            },
+            {
+                "name": "Clock Tower",
+                "sections": [
+                    {
+                        "name": "08:00 Door",
+                        "ref": "Overview/Neverland - Chests/Clock Tower - 08:00 Door"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "NL",
+                        "x": 645,
+                        "y": 45
+                    }
+                ]
+            },
+            {
+                "name": "Clock Tower",
+                "sections": [
+                    {
+                        "name": "09:00 Door",
+                        "ref": "Overview/Neverland - Chests/Clock Tower - 09:00 Door"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "NL",
+                        "x": 781,
+                        "y": 45
+                    }
+                ]
+            },
+            {
+                "name": "Clock Tower",
+                "sections": [
+                    {
+                        "name": "10:00 Door",
+                        "ref": "Overview/Neverland - Chests/Clock Tower - 10:00 Door"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "NL",
+                        "x": 733,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "name": "Clock Tower",
+                "sections": [
+                    {
+                        "name": "11:00 Door",
+                        "ref": "Overview/Neverland - Chests/Clock Tower - 11:00 Door"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "NL",
+                        "x": 730,
+                        "y": 225
+                    }
+                ]
+            },
+            {
+                "name": "Clock Tower",
+                "sections": [
+                    {
+                        "name": "12:00 Door",
+                        "ref": "Overview/Neverland - Chests/Clock Tower - 12:00 Door"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "NL",
+                        "x": 670,
+                        "y": 214
+                    }
+                ]
+            },
+            {
                 "name": "Hold",
                 "sections": [
                     {

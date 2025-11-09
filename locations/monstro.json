@@ -132,6 +132,38 @@
                 ]
             },
             {
+                "name": "Throat",
+                "sections": [
+                    {
+                        "name": "Blue Trinity",
+                        "ref": "Overview/Monstro - Chests After Movement/Throat - Blue Trinity"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mon",
+                        "x": 202,
+                        "y": 924
+                    }
+                ]
+            },
+            {
+                "name": "Mouth",
+                "sections": [
+                    {
+                        "name": "Blue Trinity",
+                        "ref": "Overview/Monstro - Chests After Movement/Mouth - Blue Trinity"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mon",
+                        "x": 460,
+                        "y": 109
+                    }
+                ]
+            },
+            {
                 "name": "Mouth",
                 "sections": [
                     {
@@ -192,6 +224,22 @@
                         "map": "Mon",
                         "x": 589,
                         "y": 564
+                    }
+                ]
+            },
+            {
+                "name": "Chamber 5",
+                "sections": [
+                    {
+                        "name": "Blue Trinity",
+                        "ref": "Overview/Monstro - Chests Before Movement/Chamber 5 - Blue Trinity"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mon",
+                        "x": 739,
+                        "y": 606
                     }
                 ]
             },
@@ -320,6 +368,22 @@
                         "map": "Mon",
                         "x": 722,
                         "y": 591
+                    }
+                ]
+            },
+            {
+                "name": "Chamber 6",
+                "sections": [
+                    {
+                        "name": "White Trinity Chest",
+                        "ref": "Overview/Monstro - Chests Before Movement/Chamber 6 - White Trinity Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mon",
+                        "x": 50,
+                        "y": 539
                     }
                 ]
             },

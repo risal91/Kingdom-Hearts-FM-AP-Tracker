@@ -198,6 +198,86 @@
                 "name": "Tea Party Garden",
                 "sections": [
                     {
+                        "name": "Left Cushioned Chair",
+                        "ref": "Overview/Wonderland - Before Footprints/Tea Party Garden - Left Cushioned Chair"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                        "x": 300,
+                        "y": 586
+                    }
+                ]
+            },
+            {
+                "name": "Tea Party Garden",
+                "sections": [
+                    {
+                        "name": "Left Pink Chair",
+                        "ref": "Overview/Wonderland - Before Footprints/Tea Party Garden - Left Pink Chair"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                        "x": 346,
+                        "y": 603
+                    }
+                ]
+            },
+            {
+                "name": "Tea Party Garden",
+                "sections": [
+                    {
+                        "name": "Right Yellow Chair",
+                        "ref": "Overview/Wonderland - Before Footprints/Tea Party Garden - Right Yellow Chair"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                        "x": 379,
+                        "y": 573
+                    }
+                ]
+            },
+            {
+                "name": "Tea Party Garden",
+                "sections": [
+                    {
+                        "name": "Left Gray Chair",
+                        "ref": "Overview/Wonderland - Before Footprints/Tea Party Garden - Left Gray Chair"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                        "x": 336,
+                        "y": 576
+                    }
+                ]
+            },
+            {
+                "name": "Tea Party Garden",
+                "sections": [
+                    {
+                        "name": "Right Brown Chair",
+                        "ref": "Overview/Wonderland - Before Footprints/Tea Party Garden - Right Brown Chair"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                        "x": 340,
+                        "y": 550
+                    }
+                ]
+            },
+            {
+                "name": "Tea Party Garden",
+                "sections": [
+                    {
                         "name": "2nd Chest Above Lotus Forest Entrance",
                         "ref": "Overview/Wonderland - Before Footprints/Tea Party Garden - 2nd Chest Above Lotus Forest Entrance"
                     }
@@ -333,6 +413,22 @@
                 "name": "Bizarre Room",
                 "sections": [
                     {
+                        "name": "Examine Flower Pot",
+                        "ref": "Overview/Wonderland - Misc/Bizarre Room - Examine Flower Pot"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                        "x": 763,
+                        "y": 543
+                    }
+                ]
+            },
+            {
+                "name": "Bizarre Room",
+                "sections": [
+                    {
                         "name": "Defeat Trickmaster",
                         "ref": "Overview/Wonderland - After Footprints/Defeat Trickmaster"
                     },
@@ -346,6 +442,102 @@
                         "map": "WL",
                         "x": 670,
                         "y": 570
+                    }
+                ]
+            },
+            {
+                "name": "Lotus Forest",
+                "sections": [
+                    {
+                        "name": "Red Flowers",
+                        "ref": "Overview/Wonderland - Misc/Lotus Forest - Red Flowers on Main Path"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                        "x": 304,
+                        "y": 223
+                    }
+                ]
+            },
+            {
+                "name": "Lotus Forest",
+                "sections": [
+                    {
+                        "name": "Yellow Flowers",
+                        "ref": "Overview/Wonderland - Misc/Lotus Forest - Yellow Flowers in Middle Clearing and Through Painting"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                        "x": 291,
+                        "y": 43
+                    }
+                ]
+            },
+            {
+                "name": "Lotus Forest",
+                "sections": [
+                    {
+                        "name": "Yellow Elixir Flower",
+                        "ref": "Overview/Wonderland - Misc/Lotus Forest - Yellow Elixir Flower Through Painting"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                        "x": 316,
+                        "y": 25
+                    }
+                ]
+            },
+            {
+                "name": "Lotus Forest",
+                "sections": [
+                    {
+                        "name": "Red Flower",
+                        "ref": "Overview/Wonderland - Misc/Lotus Forest - Red Flower Raise Lily Pads"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                        "x": 157,
+                        "y": 360
+                    }
+                ]
+            },
+            {
+                "name": "Lotus Forest",
+                "sections": [
+                    {
+                        "name": "Blue Trinity",
+                        "ref": "Overview/Wonderland - Misc/Lotus Forest - Blue Trinity in Alcove"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                        "x": 271,
+                        "y": 162
+                    }
+                ]
+            },
+            {
+                "name": "Lotus Forest",
+                "sections": [
+                    {
+                        "name": "Blue Trinity",
+                        "ref": "Overview/Wonderland - Misc/Lotus Forest - Blue Trinity by Moving Boulder"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "WL",
+                        "x": 118,
+                        "y": 390
                     }
                 ]
             }

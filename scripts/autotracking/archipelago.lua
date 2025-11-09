@@ -28,6 +28,10 @@ WORLD_PROGRESSION_MAPPING = {
     [2641165] = { "neverland" },
     [2641169] = { "end_of_the_world" }
 }
+
+
+
+
 function onClear(slot_data)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
@@ -135,7 +139,7 @@ function onItem(index, item_id, item_name, player_number)
     local is_local = player_number == Archipelago.PlayerNumber
     CUR_INDEX = index;
 
-    -- ########## START: NEW PROGRESSIV-WELTEN-LOGIC ##########
+    -- ########## START: NEW PROGRESSIV-World-LOGIC ##########
 
     -- Extra-Case: Halloween Town
     -- ID 2641166
@@ -182,7 +186,7 @@ function onItem(index, item_id, item_name, player_number)
         end
         return
     end
-    -- ########## ENDE: NEW PROGRESSIV-WELTEN-LOGIC ##########
+    -- ########## ENDE: NEW PROGRESSIV-World-LOGIC ##########
 
     local v = ITEM_MAPPING[item_id]
     if not v then
@@ -191,12 +195,15 @@ function onItem(index, item_id, item_name, player_number)
         end
         return
     end
+
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onItem: code: %s, type %s", v[1], v[2]))
     end
+
     if not v[1] then
         return
     end
+
     local obj = Tracker:FindObjectForCode(v[1])
     if obj then
         if v[2] == "toggle" then
@@ -207,8 +214,20 @@ function onItem(index, item_id, item_name, player_number)
             else
                 obj.Active = true
             end
+
         elseif v[2] == "consumable" then
-            obj.AcquiredCount = obj.AcquiredCount + obj.Increment
+            local increment = obj.Increment or 1
+
+            if v[1] == "kh_puppies" then
+                if SLOT_DATA and SLOT_DATA.puppy_value and type(SLOT_DATA.puppy_value) == 'number' then
+                    increment = SLOT_DATA.puppy_value -- Setze auf 3
+                end
+                if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                    print(string.format("onItem: Puppies: Using final increment %d for %s", increment, v[1]))
+                end
+            end
+            obj.AcquiredCount = obj.AcquiredCount + increment
+
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("onItem: unknown item type %s for code %s", v[2], v[1]))
         end

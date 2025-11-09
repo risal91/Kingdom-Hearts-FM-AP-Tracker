@@ -110,6 +110,14 @@
                         "access_rules":["$tt_chests, white_trinity"]
                     },
                     {
+                        "name": "1st District - Blue Trinity Exit",
+                        "access_rules":["$tt_chests, blue_trinity"]
+                    },
+                    {
+                        "name": "3rd District - Blue Trinity",
+                        "access_rules":["$tt_chests, blue_trinity"]
+                    },
+                    {
                         "name": "Secret Waterway - Kairi",
                         "access_rules": ["hollow_bastion, [$world_count:5], $has_emblems"],
                         "chest_unopened_img": "/images/misc/emblem.png",
@@ -128,6 +136,10 @@
                     {
                         "name": "Mystical House - Glide Chest",
                         "access_rules":["$tt_chests, fire:1, ^$tt_mystical_house_glide_access"]
+                    },
+                    {
+                        "name": "Mystical House - Blue Trinity",
+                        "access_rules":["fire:1 , blue_trinity"]
                     },
                     {
                         "name": "Merlin - All LV1 Magic",
@@ -423,6 +435,26 @@
                         "access_rules":["^$wl_tea_party_entrance_access"]
                     },
                     {
+                        "name": "Tea Party Garden - Left Cushioned Chair",
+                        "access_rules":["^$wl_tea_party_entrance_access"]
+                    },
+                    {
+                        "name": "Tea Party Garden - Left Pink Chair",
+                        "access_rules":["^$wl_tea_party_entrance_access"]
+                    },
+                    {
+                        "name": "Tea Party Garden - Right Yellow Chair",
+                        "access_rules":["^$wl_tea_party_entrance_access"]
+                    },
+                    {
+                        "name": "Tea Party Garden - Left Gray Chair",
+                        "access_rules":["^$wl_tea_party_entrance_access"]
+                    },
+                    {
+                        "name": "Tea Party Garden - Right Brown Chair",
+                        "access_rules":["^$wl_tea_party_entrance_access"]
+                    },
+                    {
                         "name": "Tea Party Garden - Chest Across Bizarre Room Entrance",
                         "access_rules":["^$wl_tea_party_high_hedge_access"]
                     }
@@ -484,6 +516,48 @@
                     }
                 ]
             },
+            {"name": "Wonderland - Misc",
+                "access_rules":["wonderland, [$world_count:1]"],
+                "chest_unopened_img": "/images/misc/emblem.png",
+                "chest_opened_img": "/images/misc/emblem_bw.png",
+                "sections": [
+                    {
+                        "name": "Bizarre Room - Examine Flower Pot",
+                        "access_rules":["[$world_count:2], footprints"]
+                    },
+                    {
+                        "name": "Lotus Forest - Red Flowers on Main Path",
+                        "access_rules":["$access_chests|1, [$world_count:2]"]
+                    },
+                    {
+                        "name": "Lotus Forest - Yellow Flowers in Middle Clearing and Through Painting",
+                        "access_rules":["[$world_count:2], footprints"]
+                    },
+                    {
+                        "name": "Lotus Forest - Yellow Elixir Flower Through Painting",
+                        "access_rules":["[$world_count:2], footprints"]
+                    },
+                    {
+                        "name": "Lotus Forest - Red Flower Raise Lily Pads",
+                        "access_rules":["[$world_count:2], footprints"]
+                    },
+                    {
+                        "name": "Lotus Forest - Blue Trinity in Alcove",
+                        "access_rules":["[$world_count:2], blue_trinity"]
+                    },
+                    {
+                        "name": "Lotus Forest - Blue Trinity by Moving Boulder",
+                        "access_rules":["[$world_count:2], blue_trinity , footprints"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "OV",
+                        "x": 430,
+                        "y": 100
+                    }
+                ]
+            },
             {
                 "name": "Deep Jungle - Before Slides",
                 "access_rules": ["deep_jungle, [$world_count:2]"],
@@ -531,6 +605,10 @@
                     {
                         "name": "Camp - Blue Trinity Chest",
                         "access_rules":["blue_trinity, $access_chests|3"]
+                    },
+                    {
+                        "name": "Treetop - Green Trinity",
+                        "access_rules":["green_trinity, $access_chests|3"]
                     },
                     {
                         "name": "Camp - Research Table Experiment",
@@ -843,6 +921,10 @@
                         "name": "Bazaar - High Corner Chest"
                     },
                     {
+                        "name": "Bazaar - Blue Trinity",
+                        "access_rules":["blue_trinity"]
+                    },
+                    {
                         "name": "Main Street - Right Palace Entrance Chest"
                     },
                     {
@@ -931,6 +1013,10 @@
                         "name": "Treasure Room - Chest Above Fire"
                     },
                     {
+                        "name": "Treasure Room - Red Trinity",
+                        "access_rules":["red_trinity"]
+                    },
+                    {
                         "name": "Relic Chamber - Jump from Stairs Chest"
                     },
                     {
@@ -1014,9 +1100,6 @@
                         "name": "Mouth - Chest Near Ship"
                     },
                     {
-                        "name": "Mouth - Boat Deck Chest"
-                    },
-                    {
                         "name": "Mouth - Chest on High Platform Near Teeth"
                     },
                     {
@@ -1036,6 +1119,10 @@
                     },
                     {
                         "name": "Chamber 5 - 2nd Low Chest"
+                    },
+                    {
+                        "name": "Chamber 5 - Blue Trinity",
+                        "access_rules":["blue_trinity"]
                     },
                     {
                         "name": "Chamber 6 - Low Chest"
@@ -1062,6 +1149,9 @@
                     {
                         "name": "Mouth - Chest on High Platform Boat Side",
                         "access_rules":["high_jump", "glide"]
+                    },
+                    {
+                        "name": "Mouth - Boat Deck Chest"
                     },
                     {
                         "name": "Mouth - Chest on High Platform Across from Boat",
@@ -1098,6 +1188,14 @@
                     {
                         "name": "Chamber 6 - Chest on Raised Area Near Chamber 1 Entrance",
                         "access_rules":["^$mon_chamber_6_access"]
+                    },
+                    {
+                        "name": "Mouth - Blue Trinity",
+                        "access_rules":["blue_trinity, glide", "blue_trinity, high_jump"]
+                    },
+                    {
+                        "name": "Throat - Blue Trinity",
+                        "access_rules":["blue_trinity, glide", "blue_trinity, high_jump"]
                     }
                 ],
                 "map_locations": [
@@ -1463,7 +1561,57 @@
                     {
                         "name": "Clock Tower - Chest",
                         "access_rules":["$access_chests|7, green_trinity, [hollow_bastion], [$has_emblems], [$world_count:5], [$has_defenses], [$has_lv_magic|2]"]
+                    },
+                    {
+                        "name": "Clock Tower - 01:00 Door",
+                        "access_rules":["$access_chests|7, green_trinity, [hollow_bastion], [$has_emblems], [$world_count:5], [$has_defenses], [$has_lv_magic|2]"]
+                    },
+                    {
+                        "name": "Clock Tower - 02:00 Door",
+                        "access_rules":["$access_chests|7, green_trinity, [hollow_bastion], [$has_emblems], [$world_count:5], [$has_defenses], [$has_lv_magic|2]"]
+                    },
+                    {
+                        "name": "Clock Tower - 03:00 Door",
+                        "access_rules":["$access_chests|7, green_trinity, [hollow_bastion], [$has_emblems], [$world_count:5], [$has_defenses], [$has_lv_magic|2]"]
+                    },
+                    {
+                        "name": "Clock Tower - 04:00 Door",
+                        "access_rules":["$access_chests|7, green_trinity, [hollow_bastion], [$has_emblems], [$world_count:5], [$has_defenses], [$has_lv_magic|2]"]
+                    },
+                    {
+                        "name": "Clock Tower - 05:00 Door",
+                        "access_rules":["$access_chests|7, green_trinity, [hollow_bastion], [$has_emblems], [$world_count:5], [$has_defenses], [$has_lv_magic|2]"]
+                    },
+                    {
+                        "name": "Clock Tower - 06:00 Door",
+                        "access_rules":["$access_chests|7, green_trinity, [hollow_bastion], [$has_emblems], [$world_count:5], [$has_defenses], [$has_lv_magic|2]"]
+                    },
+                    {
+                        "name": "Clock Tower - 07:00 Door",
+                        "access_rules":["$access_chests|7, green_trinity, [hollow_bastion], [$has_emblems], [$world_count:5], [$has_defenses], [$has_lv_magic|2]"]
+                    },
+                    {
+                        "name": "Clock Tower - 08:00 Door",
+                        "access_rules":["$access_chests|7, green_trinity, [hollow_bastion], [$has_emblems], [$world_count:5], [$has_defenses], [$has_lv_magic|2]"]
+                    },
+                    {
+                        "name": "Clock Tower - 09:00 Door",
+                        "access_rules":["$access_chests|7, green_trinity, [hollow_bastion], [$has_emblems], [$world_count:5], [$has_defenses], [$has_lv_magic|2]"]
+                    },
+                    {
+                        "name": "Clock Tower - 10:00 Door",
+                        "access_rules":["$access_chests|7, green_trinity, [hollow_bastion], [$has_emblems], [$world_count:5], [$has_defenses], [$has_lv_magic|2]"]
+                    },
+                    {
+                        "name": "Clock Tower - 11:00 Door",
+                        "access_rules":["$access_chests|7, green_trinity, [hollow_bastion], [$has_emblems], [$world_count:5], [$has_defenses], [$has_lv_magic|2]"]
+                    },
+                    {
+                        "name": "Clock Tower - 12:00 Door",
+                        "access_rules":["$access_chests|7, green_trinity, [hollow_bastion], [$has_emblems], [$world_count:5], [$has_defenses], [$has_lv_magic|2]"]
                     }
+
+
                 ],
                 "map_locations": [
                     {
@@ -1570,6 +1718,12 @@
                         "access_rules":["$access_chests|8"]
                     },
                     {
+                        "name": "Dungeon - Blue Trinity",
+                        "access_rules":["$access_chests|8"],
+                        "chest_unopened_img": "/images/misc/emblem.png",
+                        "chest_opened_img": "/images/misc/emblem_bw.png"
+                    },
+                    {
                         "name": "Library - Chest on Bookshelf",
                         "access_rules":["$access_chests|8"]
                     },
@@ -1664,6 +1818,10 @@
                     {
                         "name": "Great Crest - Chest after Battle Platform",
                         "access_rules":["$access_chests|8, $has_emblems"]
+                    },
+                    {
+                        "name": "Great Crest - Blue Trinity",
+                        "access_rules":["$access_chests|8, $has_emblems , blue_trinity"]
                     },
                     {
                         "name": "High Tower - 1st Gravity Chest",
@@ -1990,6 +2148,63 @@
                         "map": "OV",
                         "x": 225,
                         "y": 150
+                    }
+                ]
+            },
+            {
+                "name": "Destiny Islands",
+                "access_rules":["destiny_islands"],
+                "chest_unopened_img": "/images/misc/chest.png",
+                "chest_opened_img": "/images/misc/chest_bw.png",
+                "sections": [
+                    {
+                        "name": "Seashore - Gather Cloth (Day 1)"
+                    },
+                    {
+                        "name": "Seashore - Log under Bridge (Day 1)"
+                    },
+                    {
+                        "name": "Seashore - Log on Riku's Island (Day 1)"
+                    },
+                    {
+                        "name": "Seashore - Gather Rope (Day 1)"
+                    },
+                    {
+                        "name": "Seashore - Capture Fish 1 (Day 2)"
+                    },
+                    {
+                        "name": "Seashore - Capture Fish 2 (Day 2)"
+                    },
+                    {
+                        "name": "Seashore - Capture Fish 3 (Day 2)"
+                    },
+                    {
+                        "name": "Seashore - Gather Seagull Egg (Day 2)"
+                    },
+                    {
+                        "name": "Secret Place - Gather Mushroom (Day 2)"
+                    },
+                    {
+                        "name": "Cove - Gather Mushroom Near Zip Line (Day 2)"
+                    },
+                    {
+                        "name": "Cove - Gather Mushroom in Small Cave (Day 2)"
+                    },
+                    {
+                        "name": "Cove - Talk to Kairi (Day 2)"
+                    },
+                    {
+                        "name": "Gather Drinking Water (Day 2)"
+                    },
+                    {
+                        "name": "Cove - Destiny Islands Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "OV",
+                        "x": 86,
+                        "y": 488
                     }
                 ]
             }

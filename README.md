@@ -1,6 +1,11 @@
 # Kingdom Hearts Final Mix AP Tracker
 This is a [PopTracker](https://github.com/black-sliver/PopTracker/) Pack for Kingdom Hearts Final Mix to be used for the multiworld randomizer [Archipelago](https://archipelago.gg/).
 
+# ToDo
+ - Rework Settings Page
+ - Add Destiny Island Overworld Map
+ - Update possible Goals 
+
 ## Settings Tabs
 ### Settings
 The settings are divided into two tabs. The first one shows the following settings:
@@ -43,3 +48,4 @@ Feedback is always apreciated. If there is an issue with the tracker, either ope
 
 ## Credits
 Icons were made by [Televo](https://github.com/Televo/kingdom-hearts-recollection) or taken from CoM rips by [GaryCXJk](https://www.spriters-resource.com/submitter/GaryCXJk/).
+This tracker was maintained by Lojtana up to version 1.3.7.
